@@ -6,9 +6,8 @@ namespace CSharp6
     {
         public static void Main()
         {
-            var teacher = new Teacher("Andy")
+            var teacher = new Teacher("Andy", "W")
             {
-                // LastName = "W",
                 DOB = DateTime.Today,
             };
             teacher.PropertyChanged += Teacher_PropertyChanged;

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ImportedCSharpLibrary;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -7,10 +8,8 @@ using System.Threading.Tasks;
 
 namespace CSharp6
 {
-    public class Teacher : INotifyPropertyChanged
+    public class Teacher : Person, INotifyPropertyChanged
     {
-        public string FirstName { get; private set; }
-        public string LastName { get; private set; } = String.Empty;
         public DateTime DOB { get; init; }
 
         private string? _gender;
@@ -30,7 +29,8 @@ namespace CSharp6
 
         public string FullName => $"{FirstName} {LastName}";
 
-        public Teacher(string firstName) => FirstName = firstName;
+        public Teacher(): base(string.Empty, string.Empty) { }
+        public Teacher(string firstName, string lastName) : base(firstName, lastName) { }
 
         public void AddJuniorToFirstName()
         {

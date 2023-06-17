@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace ImportedCSharpLibrary
 {
-    public class Student
+    public class Student : Person
     {
-        public string? FirstName { get; set; }
-        public string? LastName { get; set; }
+        public Student(string firstName, string lastName)
+            : base(firstName, lastName)
+        {
+        }
     }
 }
