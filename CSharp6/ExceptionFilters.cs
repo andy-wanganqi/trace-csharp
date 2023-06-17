@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CSharp6
 {
-    public class LabExceptionFilters
+    public class ExceptionFilters
     {
         public static async Task<string> Play()
         {

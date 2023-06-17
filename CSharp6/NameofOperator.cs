@@ -1,6 +1,6 @@
 ﻿namespace CSharp6
 {
-    public class LabNameofOperator
+    public class NameofOperator
     {
         public static void Play()
         {

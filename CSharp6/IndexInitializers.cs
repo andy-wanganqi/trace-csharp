@@ -1,6 +1,6 @@
 ﻿namespace CSharp6
 {
-    public class LabIndexInitializers
+    public class IndexInitializers
     {
         public static void Play()
         {

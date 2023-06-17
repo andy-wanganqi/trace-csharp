@@ -1,6 +1,6 @@
 ﻿namespace CSharp6
 {
-    public class LabStringInterpolation
+    public class StringInterpolation
     {
         public static void Play()
         {

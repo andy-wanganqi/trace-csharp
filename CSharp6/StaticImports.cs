@@ -6,7 +6,7 @@ using static ImportedCSharpLibrary.Singleton;
 
 namespace CSharp6
 {
-    public class LabStaticImports
+    public class StaticImports
     {
         public static void Play()
         {

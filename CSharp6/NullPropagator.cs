@@ -1,6 +1,6 @@
 ﻿namespace CSharp6
 {
-    public class LabNullPropagator
+    public class NullPropagator
     {
         public static void Play()
         {
