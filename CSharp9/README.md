@@ -1,5 +1,5 @@
 # CSharp 9.0
-Released Movember, 2020
+Released November, 2020
 
 Origin: https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-version-history#c-version-9
 

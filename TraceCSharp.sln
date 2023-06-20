@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharp73", "CSharp73\CSharp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharp8", "CSharp8\CSharp8.csproj", "{6F672B53-8C59-43DA-8570-C10B71AA27A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp9", "CSharp9\CSharp9.csproj", "{19D58BD9-C85F-4F30-8B95-B6D002587FC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharp9", "CSharp9\CSharp9.csproj", "{19D58BD9-C85F-4F30-8B95-B6D002587FC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp10", "CSharp10\CSharp10.csproj", "{428F9AEA-4C26-4F47-BCB9-0B59EB82E229}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{19D58BD9-C85F-4F30-8B95-B6D002587FC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19D58BD9-C85F-4F30-8B95-B6D002587FC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19D58BD9-C85F-4F30-8B95-B6D002587FC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{428F9AEA-4C26-4F47-BCB9-0B59EB82E229}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{428F9AEA-4C26-4F47-BCB9-0B59EB82E229}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{428F9AEA-4C26-4F47-BCB9-0B59EB82E229}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{428F9AEA-4C26-4F47-BCB9-0B59EB82E229}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
